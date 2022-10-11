@@ -1,0 +1,49 @@
+.card-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 8px;
+  margin: 20px;
+  background-color: #555;
+  color: white;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+}
+
+h6 {
+  text-align: center;
+}
+
+hr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-time {
+  background-color: orange;
+}
+
+button {
+  display: block;
+  margin: 0px auto;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: orange;
+  color: white;
+  border: none;
+}
